@@ -1,0 +1,4 @@
+<substitutions version="1.0">
+    <replacement caseSensitive="0" wholeWord="1" match="Mineral" replace="Min."/>
+    <replacement caseSensitive="0" wholeWord="1" match="Spring" replace="Sp."/>
+</substitutions>

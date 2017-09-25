@@ -1,0 +1,2 @@
+#!/bin/bash
+/Applications/Postgres.app/Contents/Versions/9.4/bin/raster2pgsql -Y -I -C -t auto -d prj.adf gisdata.dem_10m_e | /Applications/Postgres.app/Contents/Versions/9.4/bin/psql -h localhost -d vic_gis

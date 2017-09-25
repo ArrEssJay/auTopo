@@ -1,0 +1,16 @@
+CASE
+  WHEN  @grid_axis = 'x' THEN
+    CASE
+      WHEN x_min(map_get( item_variables( 'main'),'map_extent')) + 1000 >  @grid_number THEN  UTMFullLabel( @grid_number, @grid_axis)
+      WHEN x_max(map_get( item_variables( 'main'),'map_extent')) - 1000 < @grid_number THEN  UTMFullLabel( @grid_number, @grid_axis)
+      WHEN @grid_number  % 100000 = 0  THEN  UTMFullLabel( @grid_number, @grid_axis)
+      ELSE UTMMinorLabel(@grid_number)
+    END
+  WHEN @grid_axis = 'y' THEN
+    CASE
+      WHEN y_min(map_get( item_variables( 'main'),'map_extent')) + 1000 >  @grid_number THEN UTMFullLabel( @grid_number, @grid_axis)
+      WHEN y_max(map_get( item_variables( 'main'),'map_extent')) - 1000 < @grid_number THEN UTMFullLabel( @grid_number, @grid_axis)
+      WHEN @grid_number  % 100000 = 0  THEN  UTMFullLabel( @grid_number, @grid_axis)
+      ELSE UTMMinorLabel(@grid_number)
+    END
+END

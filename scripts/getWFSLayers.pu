@@ -1,0 +1,4 @@
+#!/usr/local/bin/python3
+
+baseURL =
+wget "http://services.land.vic.gov.au/geoserver_pWMS/sii/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=sii:CROWNLAND.PLM25&outputFormat=shape-zip"

@@ -1,0 +1,715 @@
+<Composer>
+ <Composition gridVisible="0" snapGridOffsetX="0" snapGridOffsetY="0" printResolution="300" guidesVisible="1" snapTolerancePixels="5" paperHeight="841" snapping="0" printAsRaster="0" resizeToContentsMarginLeft="0" generateWorldFile="0" name="Vic Topo Sheets - A0" alignmentSnap="1" resizeToContentsMarginTop="0" paperWidth="1189" snapGridResolution="10" showPages="1" numPages="1" smartGuides="1" resizeToContentsMarginBottom="0" resizeToContentsMarginRight="0" worldFileMap="{6b7bdc38-7e9d-418a-a8d3-6f5de78c15b1}">
+  <symbol type="fill" name="" alpha="1" clip_to_extent="1">
+   <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+    <prop v="0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="MM" k="offset_unit"/>
+    <prop v="0,0,0,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="MM" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <ComposerPicture svgFillColor="255,255,255,255" pictureHeight="151.595" file="/Applications/QGIS.app/Contents/Resources/svg/arrows/NorthArrow_04.svg" northOffset="0" resizeMode="0" svgBorderColor="0,0,0,255" svgBorderWidth="0.2" northMode="1" pictureRotation="-3.33663" anchorPoint="0" pictureWidth="150.67" mapId="1">
+   <ComposerItem excludeFromExports="0" x="-24.6906" itemRotation="0" outlineWidth="0.3" y="910.625" id="North_Arrow" frameJoinStyle="miter" width="220.556" positionMode="0" uuid="{14588479-d509-41e4-a3d8-179425c7df01}" blendMode="0" page="2" frame="false" positionLock="true" transparency="0" zValue="3" pagex="-24.6906" visibility="1" pagey="59.6249" background="false" lastValidViewScaleFactor="-1" height="160.107">
+    <FrameColor green="0" red="0" alpha="255" blue="0"/>
+    <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option type="Map" name="properties">
+       <Option type="Map" name="dataDefinedSource">
+        <Option type="bool" name="active" value="false"/>
+        <Option type="QString" name="expression" value=""/>
+        <Option type="int" name="type" value="3"/>
+       </Option>
+      </Option>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel labelText="[%MAP_NO%]&#xa;[% &quot;MAP_NAME&quot; %]&#xa;Projection: UTM&#xa;Primary Grid: 1000m UTM Zone [% &quot;MGA_ZONE&quot; %] (AGD94)&#xa;Secondary Grid: Geographical - 1 Minute&#xa;Scale [% &quot;SCALE&quot; %] - 10m Contours" valign="128" halign="4" htmlState="0" marginX="0" marginY="0">
+   <LabelFont description="Gill Sans MT Pro,10,-1,5,57,0,0,0,0,0,Medium" style="Medium"/>
+   <FontColor green="0" red="0" blue="0"/>
+   <ComposerItem excludeFromExports="0" x="10" itemRotation="0" outlineWidth="0.4" y="10" id="Label" frameJoinStyle="miter" width="82" positionMode="0" uuid="{ca05e4bd-93e8-4a49-a9ad-b9fc0d650dc2}" blendMode="0" page="1" frame="true" positionLock="true" transparency="0" zValue="2" pagex="10" visibility="1" pagey="10" background="true" lastValidViewScaleFactor="-1" height="32">
+    <FrameColor green="0" red="0" alpha="255" blue="0"/>
+    <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties>
+     <property key="variableNames"/>
+     <property key="variableValues"/>
+    </customproperties>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerMap previewMode="Cache" id="1" followPreset="false" followPresetName="" drawCanvasItems="false" mapRotation="0" keepLayerSet="false">
+   <Extent xmin="508810.70352130621904507" xmax="567260.70358092524111271" ymin="5940058.14391641039401293" ymax="5981108.14395828172564507"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="0" frameFillColor1="255,255,255,255" rightAnnotationDisplay="1" frameFillColor2="0,0,0,255" uuid="{60bfbcc9-9001-4ead-a5a0-cfc1851bb998}" gridFrameWidth="5" bottomAnnotationDisplay="2" leftAnnotationDisplay="1" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="1000" intervalY="1000" offsetX="0" rightAnnotationDirection="1" offsetY="0" gridFramePenThickness="0.5" show="1" crossLength="3" annotationFormat="8" annotationFontColor="44,171,255,255" rightFrameDivisions="1" rightAnnotationPosition="1" topFrameDivisions="2" name="UTM Zone 55 - 1km interval SF labels, grid" topAnnotationDisplay="2" gridFrameSideFlags="15" leftFrameDivisions="1" frameAnnotationDistance="3" leftAnnotationDirection="1" bottomAnnotationPosition="1" showAnnotation="1" unit="0" leftAnnotationPosition="1" annotationExpression=" UTMGridMajor( to_string(@grid_number))" bottomFrameDivisions="2" blendMode="0" annotationPrecision="0" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="44,171,255,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.2" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>2449</srsid>
+     <srid>28355</srid>
+     <authid>EPSG:28355</authid>
+     <description>GDA94 / MGA zone 55</description>
+     <projectionacronym>utm</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description="Gill Sans MT Pro,9,-1,5,57,0,0,0,0,0,Medium" style="Medium"/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="1" frameFillColor1="255,255,255,255" rightAnnotationDisplay="1" frameFillColor2="0,0,0,255" uuid="{ec6b5e9f-f244-40c9-87d9-6bfcaf0183b5}" gridFrameWidth="1.5" bottomAnnotationDisplay="2" leftAnnotationDisplay="1" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="0.083333333333" intervalY="0.083333333333" offsetX="0" rightAnnotationDirection="1" offsetY="0" gridFramePenThickness="0.19999999999999996" show="1" crossLength="5" annotationFormat="1" annotationFontColor="0,0,0,255" rightFrameDivisions="1" rightAnnotationPosition="1" topFrameDivisions="2" name="DMS - 1 minute crosses" topAnnotationDisplay="2" gridFrameSideFlags="15" leftFrameDivisions="1" frameAnnotationDistance="4.9" leftAnnotationDirection="1" bottomAnnotationPosition="1" showAnnotation="1" unit="0" leftAnnotationPosition="1" annotationExpression=" @grid_number  || @grid_axis " bottomFrameDivisions="2" blendMode="0" annotationPrecision="0" bottomAnnotationDirection="0" gridFrameStyle="3">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.2" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+     <srsid>3415</srsid>
+     <srid>4283</srid>
+     <authid>EPSG:4283</authid>
+     <description>GDA94</description>
+     <projectionacronym>longlat</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>true</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description="Gill Sans MT Pro,7,-1,5,57,0,0,0,0,0,Medium" style="Medium"/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="3" frameFillColor1="255,255,255,255" rightAnnotationDisplay="1" frameFillColor2="0,0,0,255" uuid="{5388e80a-e811-483d-9150-02e1ad715000}" gridFrameWidth="2" bottomAnnotationDisplay="2" leftAnnotationDisplay="1" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="1000" intervalY="1000" offsetX="0" rightAnnotationDirection="1" offsetY="0" gridFramePenThickness="0.29999999999999999" show="1" crossLength="3" annotationFormat="8" annotationFontColor="44,171,255,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="UTM Zone 55 - 10km interval full UTM ref" topAnnotationDisplay="2" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="2" leftAnnotationDirection="1" bottomAnnotationPosition="1" showAnnotation="1" unit="0" leftAnnotationPosition="1" annotationExpression="UTMGridMinor(to_string(@grid_number),@grid_axis)" bottomFrameDivisions="0" blendMode="0" annotationPrecision="0" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.3" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>2449</srsid>
+     <srid>28355</srid>
+     <authid>EPSG:28355</authid>
+     <description>GDA94 / MGA zone 55</description>
+     <projectionacronym>utm</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description="Gill Sans MT Pro,6,-1,5,57,0,0,0,0,0,Medium" style="Medium"/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="3" frameFillColor1="255,255,255,255" rightAnnotationDisplay="0" frameFillColor2="0,0,0,255" uuid="{a67e9d4c-979f-408e-9e02-4c844797f09c}" gridFrameWidth="1" bottomAnnotationDisplay="0" leftAnnotationDisplay="0" gridFramePenColor="44,171,255,255" topAnnotationPosition="1" intervalX="100" intervalY="100" offsetX="0" rightAnnotationDirection="0" offsetY="0" gridFramePenThickness="0.20000000000000001" show="0" crossLength="1" annotationFormat="0" annotationFontColor="0,0,0,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="UTM Zone 55 - 1km intervals - ext. ticks" topAnnotationDisplay="0" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="1" leftAnnotationDirection="0" bottomAnnotationPosition="1" showAnnotation="0" unit="0" leftAnnotationPosition="1" annotationExpression="" bottomFrameDivisions="0" blendMode="0" annotationPrecision="3" bottomAnnotationDirection="0" gridFrameStyle="3">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.1" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>2449</srsid>
+     <srid>28355</srid>
+     <authid>EPSG:28355</authid>
+     <description>GDA94 / MGA zone 55</description>
+     <projectionacronym>utm</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="0" frameFillColor1="255,255,255,255" rightAnnotationDisplay="0" frameFillColor2="0,0,0,255" uuid="{0b88b028-b9dd-449b-8f4c-95e98214a9e6}" gridFrameWidth="2" bottomAnnotationDisplay="0" leftAnnotationDisplay="0" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="1000" intervalY="1000" offsetX="0" rightAnnotationDirection="0" offsetY="0" gridFramePenThickness="0.29999999999999999" show="0" crossLength="3" annotationFormat="0" annotationFontColor="0,0,0,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="VICGRID (Not setup for printing)" topAnnotationDisplay="0" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="1" leftAnnotationDirection="0" bottomAnnotationPosition="1" showAnnotation="0" unit="0" leftAnnotationPosition="1" annotationExpression="" bottomFrameDivisions="0" blendMode="0" annotationPrecision="3" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.1" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=lcc +lat_1=-36 +lat_2=-38 +lat_0=-37 +lon_0=145 +x_0=2500000 +y_0=2500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>1074</srsid>
+     <srid>3111</srid>
+     <authid>EPSG:3111</authid>
+     <description>GDA94 / Vicgrid94</description>
+     <projectionacronym>lcc</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="0" frameFillColor1="255,255,255,255" rightAnnotationDisplay="0" frameFillColor2="0,0,0,255" uuid="{9afa2872-3a4e-4119-b441-9bb4325107b9}" gridFrameWidth="2" bottomAnnotationDisplay="0" leftAnnotationDisplay="0" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="1000" intervalY="1000" offsetX="0" rightAnnotationDirection="0" offsetY="0" gridFramePenThickness="0.29999999999999999" show="0" crossLength="3" annotationFormat="0" annotationFontColor="0,0,0,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="ALBERS GRID  (3577)(Not setup for printing)" topAnnotationDisplay="0" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="1" leftAnnotationDirection="0" bottomAnnotationPosition="1" showAnnotation="0" unit="0" leftAnnotationPosition="1" annotationExpression="" bottomFrameDivisions="0" blendMode="0" annotationPrecision="3" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.3" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=aea +lat_1=-18 +lat_2=-36 +lat_0=0 +lon_0=132 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>1535</srsid>
+     <srid>3577</srid>
+     <authid>EPSG:3577</authid>
+     <description>GDA94 / Australian Albers</description>
+     <projectionacronym>aea</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="0" frameFillColor1="255,255,255,255" rightAnnotationDisplay="0" frameFillColor2="0,0,0,255" uuid="{fca51a55-46f8-4d1f-be3a-c3e8e0f4ae40}" gridFrameWidth="2" bottomAnnotationDisplay="0" leftAnnotationDisplay="0" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="1000" intervalY="1000" offsetX="0" rightAnnotationDirection="0" offsetY="0" gridFramePenThickness="0.29999999999999999" show="0" crossLength="3" annotationFormat="0" annotationFontColor="0,0,0,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="GA LAMBERT GRID (3112) (Not setup for printing)" topAnnotationDisplay="0" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="1" leftAnnotationDirection="0" bottomAnnotationPosition="1" showAnnotation="0" unit="0" leftAnnotationPosition="1" annotationExpression="" bottomFrameDivisions="0" blendMode="0" annotationPrecision="3" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.3" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=lcc +lat_1=-18 +lat_2=-36 +lat_0=0 +lon_0=134 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+     <srsid>1075</srsid>
+     <srid>3112</srid>
+     <authid>EPSG:3112</authid>
+     <description>GDA94 / Geoscience Australia Lambert</description>
+     <projectionacronym>lcc</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <ComposerMapGrid topAnnotationDirection="0" gridStyle="0" frameFillColor1="255,255,255,255" rightAnnotationDisplay="0" frameFillColor2="0,0,0,255" uuid="{b27a9250-14ab-4ab6-9f21-5b54885d2fb2}" gridFrameWidth="2" bottomAnnotationDisplay="0" leftAnnotationDisplay="0" gridFramePenColor="0,0,0,255" topAnnotationPosition="1" intervalX="0.083333333333" intervalY="0.083333333333" offsetX="0" rightAnnotationDirection="0" offsetY="0" gridFramePenThickness="0.29999999999999999" show="0" crossLength="3" annotationFormat="0" annotationFontColor="0,0,0,255" rightFrameDivisions="0" rightAnnotationPosition="1" topFrameDivisions="0" name="DMS Grid (Not Setup For Printing)" topAnnotationDisplay="0" gridFrameSideFlags="15" leftFrameDivisions="0" frameAnnotationDistance="1" leftAnnotationDirection="0" bottomAnnotationPosition="1" showAnnotation="0" unit="0" leftAnnotationPosition="1" annotationExpression="" bottomFrameDivisions="0" blendMode="0" annotationPrecision="3" bottomAnnotationDirection="0" gridFrameStyle="0">
+    <lineStyle>
+     <symbol type="line" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+       <prop v="flat" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="0,0,0,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.7" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol type="marker" name="" alpha="1" clip_to_extent="1">
+      <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+       <prop v="0" k="angle"/>
+       <prop v="0,0,0,255" k="color"/>
+       <prop v="1" k="horizontal_anchor_point"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="circle" k="name"/>
+       <prop v="0,0" k="offset"/>
+       <prop v="0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0,0,0,255" k="outline_color"/>
+       <prop v="solid" k="outline_style"/>
+       <prop v="0" k="outline_width"/>
+       <prop v="0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+       <prop v="MM" k="outline_width_unit"/>
+       <prop v="diameter" k="scale_method"/>
+       <prop v="2" k="size"/>
+       <prop v="0,0,0,0,0,0" k="size_map_unit_scale"/>
+       <prop v="MM" k="size_unit"/>
+       <prop v="1" k="vertical_anchor_point"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option type="QString" name="name" value=""/>
+         <Option name="properties"/>
+         <Option type="QString" name="type" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+     <srsid>3415</srsid>
+     <srid>4283</srid>
+     <authid>EPSG:4283</authid>
+     <description>GDA94</description>
+     <projectionacronym>longlat</projectionacronym>
+     <ellipsoidacronym>GRS80</ellipsoidacronym>
+     <geographicflag>true</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap atlasDriven="1" scalingMode="0" margin="0"/>
+   <ComposerItem excludeFromExports="0" x="10" itemRotation="0" outlineWidth="0.2" y="10" id="" frameJoinStyle="miter" width="1169" positionMode="0" uuid="{6b7bdc38-7e9d-418a-a8d3-6f5de78c15b1}" blendMode="0" page="1" frame="true" positionLock="true" transparency="0" zValue="1" pagex="10" visibility="1" pagey="10" background="true" lastValidViewScaleFactor="1" height="821">
+    <FrameColor green="0" red="0" alpha="255" blue="0"/>
+    <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option type="Map" name="properties">
+       <Option type="Map" name="dataDefinedHeight">
+        <Option type="bool" name="active" value="true"/>
+        <Option type="QString" name="expression" value="@layout_pageheight -20"/>
+        <Option type="int" name="type" value="3"/>
+       </Option>
+       <Option type="Map" name="dataDefinedMapRotation">
+        <Option type="bool" name="active" value="false"/>
+        <Option type="int" name="type" value="1"/>
+        <Option type="QString" name="val" value=""/>
+       </Option>
+       <Option type="Map" name="dataDefinedMapScale">
+        <Option type="bool" name="active" value="true"/>
+        <Option type="QString" name="field" value="SCALE"/>
+        <Option type="int" name="type" value="2"/>
+       </Option>
+       <Option type="Map" name="dataDefinedWidth">
+        <Option type="bool" name="active" value="true"/>
+        <Option type="QString" name="expression" value="@layout_pagewidth -20"/>
+        <Option type="int" name="type" value="3"/>
+       </Option>
+      </Option>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <dataDefinedProperties>
+   <Option type="Map">
+    <Option type="QString" name="name" value=""/>
+    <Option type="Map" name="properties">
+     <Option type="Map" name="dataDefinedHeight">
+      <Option type="bool" name="active" value="true"/>
+      <Option type="QString" name="expression" value="@layout_pageheight -20"/>
+      <Option type="int" name="type" value="3"/>
+     </Option>
+     <Option type="Map" name="dataDefinedMapRotation">
+      <Option type="bool" name="active" value="true"/>
+      <Option type="QString" name="expression" value="-UTMdegreesToTrueNorth(to_int(MGA_ZONE)   ,'S', x( @map_extent_center ),y( @map_extent_center))"/>
+      <Option type="int" name="type" value="3"/>
+     </Option>
+     <Option type="Map" name="dataDefinedMapScale">
+      <Option type="bool" name="active" value="true"/>
+      <Option type="QString" name="field" value="SCALE"/>
+      <Option type="int" name="type" value="2"/>
+     </Option>
+     <Option type="Map" name="dataDefinedSource">
+      <Option type="bool" name="active" value="false"/>
+      <Option type="QString" name="expression" value=""/>
+      <Option type="int" name="type" value="3"/>
+     </Option>
+     <Option type="Map" name="dataDefinedWidth">
+      <Option type="bool" name="active" value="true"/>
+      <Option type="QString" name="expression" value="@layout_pagewidth -20"/>
+      <Option type="int" name="type" value="3"/>
+     </Option>
+    </Option>
+    <Option type="QString" name="type" value="collection"/>
+   </Option>
+  </dataDefinedProperties>
+  <customproperties/>
+ </Composition>
+ <Atlas pageNameExpression="concat(MAP_NAME, ' - ', MAP_NO, '-',  OBJECTID)" filterFeatures="true" featureFilter="OBJECTID=256" sortFeatures="false" filenamePattern="'output_'||@atlas_featurenumber" hideCoverage="false" singleFile="false" enabled="true" coverageLayer="datavic_VMINDEX_VICMAP_MAPINDEX_SPECIAL20170406123150595"/>
+</Composer>
