@@ -1,3 +1,4 @@
+from qgis.core import *
 import mgrs
 
 @qgsfunction(args="auto", group='Custom')

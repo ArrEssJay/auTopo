@@ -13,13 +13,11 @@ def UTMFullLabel(grid_ref, axis, feature, parent):
   #either the 1st or 1-2 for the most sig figs depending if there 6 or 7 digits
   lstr = ''
   if (len(gstring) == 6):
-    lstr = gstring[0] #first 2 digits
+    lstr = gstring[0]
   elif (len(gstring) == 7):
-    lstr = gstring[0:1]
-  else:
-    return str(len(gstring))
+    lstr = gstring[:2] #first 2 digits
   #return "{0}{1}{2}m{3}".format(super_scr_num(lstr),mstr,super_scr_num(rstr),'E' if axis == 'x' else 'N')
-  return "{0}{1}{2}m{3}".format(sub_scr_num(lstr),mstr,sub_scr_num(rstr),'E' if axis == 'x' else 'N')
+  return "{0}{1}{2}".format(sub_scr_num(lstr),mstr,sub_scr_num(rstr))
   #return "{}-{}-{}m{}".format(lstr,mstr,rstr,'E' if axis == 'x' else 'N')
 
 def super_scr_num(inputText):

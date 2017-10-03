@@ -40599,13 +40599,13 @@ def my_form_open(dialog, layer, feature):
             <customproperties/>
           </ComposerItem>
         </ComposerMap>
-        <ComposerScaleBar outlineWidth="0.085" lineCapStyle="flat" numSegmentsLeft="4" maxBarWidth="150" height="1" minBarWidth="50" style="Single Box" boxContentSpace="0" labelBarSpace="1" mapId="1" alignment="0" numUnitsPerSegment="1000" lineJoinStyle="miter" numMapUnitsPerScaleBarUnit="1" numSegments="2" segmentMillimeters="33.3639" unitType="meters" unitLabel="m" segmentSizeMode="0">
+        <ComposerScaleBar outlineWidth="0.085" lineCapStyle="flat" numSegmentsLeft="4" maxBarWidth="150" height="1" minBarWidth="50" style="Single Box" boxContentSpace="0" labelBarSpace="1" mapId="1" alignment="0" numUnitsPerSegment="1000" lineJoinStyle="miter" numMapUnitsPerScaleBarUnit="1" numSegments="2" segmentMillimeters="33.3245" unitType="meters" unitLabel="m" segmentSizeMode="0">
           <scaleBarFont style="47 Light Condensed" description="Frutiger LT Std,4,-1,5,25,0,0,0,0,0,47 Light Condensed"/>
           <fillColor blue="172" green="169" red="167" alpha="255"/>
           <fillColor2 blue="255" green="255" red="255" alpha="255"/>
           <strokeColor blue="32" green="31" red="35" alpha="255"/>
           <textColor blue="32" green="31" red="35" alpha="255"/>
-          <ComposerItem outlineWidth="0.3" lastValidViewScaleFactor="-1" page="1" pagey="278" height="10.521" itemRotation="0" uuid="{285e0b08-b801-438d-b394-ed48688f5b7c}" visibility="1" frame="false" y="278" background="false" x="157.937" zValue="4" id="Scale Bar" blendMode="0" pagex="157.937" opacity="1" excludeFromExports="0" frameJoinStyle="miter" width="104.245" positionLock="true" positionMode="0">
+          <ComposerItem outlineWidth="0.3" lastValidViewScaleFactor="-1" page="1" pagey="278" height="10.521" itemRotation="0" uuid="{285e0b08-b801-438d-b394-ed48688f5b7c}" visibility="1" frame="false" y="278" background="false" x="157.937" zValue="4" id="Scale Bar" blendMode="0" pagex="157.937" opacity="1" excludeFromExports="0" frameJoinStyle="miter" width="104.126" positionLock="true" positionMode="0">
             <FrameColor blue="0" green="0" red="0" alpha="255"/>
             <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
             <dataDefinedProperties>
@@ -41480,7 +41480,7 @@ def my_form_open(dialog, layer, feature):
           </property>
         </customproperties>
       </Composition>
-      <Atlas hideCoverage="false" singleFile="false" pageNameExpression="&quot;MAP_NO&quot;" coverageLayerName="vicmap_mapindex_30da3" filterFeatures="true" fileFormat="png" coverageLayer="vicmap_mapindex_30da3_3e6a29f0_149e_4ff4_9ed5_8fb09ecf2c98" sortAscending="true" coverageLayerSource="/Users/rob/Dropbox/GIS/vic_topo_map/autopo_vic_layers/state_layers_local/VIC/VMINDEX/layer_230517/vicmap_mapindex_30da3.shp" filenamePattern="'output_'||@atlas_featurenumber" featureFilter=" &quot;MAP_NO&quot;  IN ('8523-3-2-S','8523-3-2-N','7523-3-1-N', '7523-3-1-S' ,'7523-2-4-N', '7523-2-4-S' )" coverageLayerProvider="ogr" enabled="true" sortFeatures="true" sortKey="MAP_NO"/>
+      <Atlas hideCoverage="false" singleFile="false" pageNameExpression="&quot;MAP_NO&quot;" coverageLayerName="vicmap_mapindex_30da3" filterFeatures="true" fileFormat="png" coverageLayer="vicmap_mapindex_30da3_3e6a29f0_149e_4ff4_9ed5_8fb09ecf2c98" sortAscending="true" coverageLayerSource="/Users/rob/Dropbox/GIS/vic_topo_map/autopo_vic_layers/state_layers_local/VIC/VMINDEX/layer_230517/vicmap_mapindex_30da3.shp" filenamePattern="'output_'||@atlas_featurenumber" featureFilter=" &quot;MAP_NO&quot;  IN ('8523-3-2-S','7523-3-1-N', '7523-3-1-S' ,'7523-2-4-N', '7523-2-4-S' )" coverageLayerProvider="ogr" enabled="true" sortFeatures="true" sortKey="MAP_NO"/>
     </Composer>
   </Layouts>
 </qgis>

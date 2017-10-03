@@ -1,3 +1,5 @@
+from qgis.core import *
+
 @qgsfunction(args="auto", group='Custom')
 def decimalDegrees2DMS(dd, axis, feature, parent):
   abs_dd=abs(dd)

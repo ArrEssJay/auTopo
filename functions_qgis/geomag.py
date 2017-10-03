@@ -1,3 +1,5 @@
+from qgis.core import *
+
 import geomag
 import datetime
 
